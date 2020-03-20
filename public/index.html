@@ -3,12 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 </head>
-<body>
-  <canvas class="canvasInput">
-    <img src="assets/images/hug-kiss-images.jpg" alt="photo">
-  </canvas>
-  <canvas class="canvasOutput"></canvas>
+
+    <input type="file" name="fileToUpload" id="fileToUpload" accept="image/*">
+
+    <i class="fas fa-spinner" id="spinner" style="display: none;"></i>
+    <img src="" alt="" id="outImage">
+    <span id="result"></span>
+
   <script type="text/javascript" src="assets/index.js"></script>
-</body>
+  </body>
+  <body>
 </html>

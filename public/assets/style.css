@@ -1,0 +1,14 @@
+#outImage {
+  width: 20%;
+  display: block;
+  margin-top: 2em;
+}
+
+#spinner {
+  width: auto;
+}
+
+#result {
+  margin-top: 2em;
+  display: inline-block;
+}
