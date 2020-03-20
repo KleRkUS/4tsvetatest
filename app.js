@@ -9,6 +9,4 @@ app.use(express.static(path.join(__dirname, '/public')));
 app.use(express.json());
 app.use("/", index);
 
-console.log("App is running on port "+port);
-
-app.listen(port);
+app.listen(process.env.PORT || port);
