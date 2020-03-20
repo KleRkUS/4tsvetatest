@@ -1,7 +1,7 @@
 const express = require('express'),
       app = express(),
       path = require("path"),
-      port = 80,
+      port = 4000,
       index = require('./app/routes/index.js');
 
 app.use(express.static(path.join(__dirname, '/public')));
